@@ -17,20 +17,20 @@
 
 ### Variables ###
 
-date = current date
-currentTime = current time
-futureTime = scheduled alarm time
-alarm = alarms user
-snooze = Silences Alarm for 5 minutes
-offButton = Turns off alarm
+- date = current date
+- currentTime = current time
+- futureTime = scheduled alarm time
+- alarm = alarms user
+- snooze = Silences Alarm for 5 minutes
+- offButton = Turns off alarm
 
 ### Functions ###
 
 If currentTime === futureTime
-    PLAY alarm
+   - PLAY alarm
 
 If snooze clicked
-    Silence Alarm for 5 minutes
+   - Silence Alarm for 5 minutes
 
 If offButton clicked
-    Turns off Alarm
+   - Turns off Alarm
